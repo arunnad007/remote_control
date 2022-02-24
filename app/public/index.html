@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Web Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="socket.io.js"></script>
+
+<script>
+  const socket = io();
+</script>
+<script src = "client.js"> </script> 
+
+
+</head>
+<body>
+<div id = "div_gui">
+    <p >
+        <img id = "gui" src = "images/gui.bmp" width = 1023 height = 599 alt ="gui" > 
+    </p>
+</div>
+
+<div id = "div_buttons">
+    <p>
+        <button id = "button_up1" onclick="incrementValue('kv')"> <img id = "up1" src = "images/up1.bmp" width = 75  height = 64 alt = "up1" > 
+        </button>
+    </p>
+    
+    <p>
+        <button id = "button_up2" onclick="incrementValue('mA')"> <img id = "up2" src = "images/up2.bmp" width = 75  height = 64 alt = "up2"> 
+    </button>
+    </p>
+    <p>
+       <button id = "button_up3"  onclick="incrementValue('mAS')"> <img id = "up3" src = "images/up3.bmp" width = 75  height = 64 alt = "up3"> 
+        </button>
+    </p>
+    <p>
+        <button id = "button_down1" onclick = "decrementValue('kv')"> <img id = "down1" src = "images/down1.bmp" width = 75  height = 64 alt = "down1"> 
+       </button>
+    </p>
+    <p>
+        <button id = "button_down2" onclick = "decrementValue('mA')"> <img id = "down2" src = "images/down2.bmp" width = 75  height = 64 alt = "down2"> 
+     </button>
+    </p>
+    
+    <p>
+        <button id = "button_down3" onclick = "decrementValue('mAS')"> <img id = "down3" src = "images/down3.bmp" width = 75  height = 64 alt = "down3"> 
+      </button>
+    </p>
+</div>
+<div id = "div_numbers">
+
+    <input type="text"  value= "40" id="kv"  name="name_kv"  maxlength="3">
+    <input type="text"  value= "50" id="mA"  name="name_mA"  maxlength="3">
+    <input type="text"  value= "1"  id="mAS" name="name_mAS" maxlength="3">
+    <input type="text"  value= "0000"  id="ack" name="name_ack" maxlength="4">
+
+</div>
+
+
+</body>
+</html>

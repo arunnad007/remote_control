@@ -1,0 +1,47 @@
+#gui {
+    position:fixed;
+    right : 0px; left:0px; top:0px; width:1023px; height:599px; border:none;
+}
+#up1 {
+    position:fixed;
+    left : 261px; top:89px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+#up2 {
+    position:fixed;
+    left : 261px; top:202px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+#up3 {
+    position:fixed;
+    left : 261px; top:315px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+
+
+#down1 {
+    position:fixed;
+    left : 347px; top:89px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+#down2 {
+    position:fixed;
+    left : 347px; top:202px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+#down3 {
+    position:fixed;
+    left : 347px; top:315px; width:75px; height:64px;border:none;margin:0px;padding:0px;
+}
+#kv {
+    position:fixed;
+    direction:RTL;width:136px; height:77px; left:116px ;top: 83px; font: 4.3em 'Times New Roman';border:none;margin:0px;padding:0px;
+}
+#mA {
+    position:fixed;
+    direction:RTL;width:136px; height:77px; left:116px ;top: 196px; font: 4.3em 'Times New Roman';border:none;margin:0px;padding:0px;
+}
+#mAS {
+    position:fixed;
+    direction:RTL;width:136px; height:77px; left:116px ;top: 309px; font: 4.3em 'Times New Roman';border:none;margin:0px;padding:0px;
+}
+#ack {
+    position:fixed;
+    direction:RTL;width:236px; height:77px; left:116px ;top: 3px; font: 4.3em 'Times New Roman';border:none;margin:0px;padding:0px;
+
+}
